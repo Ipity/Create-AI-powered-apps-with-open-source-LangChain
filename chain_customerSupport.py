@@ -4,7 +4,7 @@ from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
 import os
 # Mengatur LLM
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "ipit"
 llm = ChatOpenAI(temperature=0.9)
 def handle_complaint(komplain: str) -> str:
     #Buat instance LLM dengan nilai temprature 0,9 (nilai lebih tinggi membuat keluaran lebih acak).
